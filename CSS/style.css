@@ -1,0 +1,446 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* top-menu css open */
+
+.top-menu{
+   
+    opacity: 12;
+   
+    /* border: 2px solid black; */
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background: rgb(238, 232, 232); */
+   background-color: aliceblue;
+
+}
+
+.container{
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+
+}
+
+
+.logo{
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    height: 7em;
+    margin-left: 5em;
+    border-radius: 50%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    
+}
+
+.btn{
+    padding: 0.6em 1.1em;
+    font-size: 1.3em;
+    margin: 0.3em;
+    cursor: pointer;
+}
+
+#search-item{
+    padding: 0.7em;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 2em;
+    margin-right: 2em;
+}
+
+
+
+
+
+#sign-in,#sign-up,#sign-out{
+    border: none;
+    border-radius: 0.6em;
+    transition: 0.4s;
+   
+}
+
+#sign-in{
+    background: #fff;
+}
+
+#sign-in:hover{
+    background: silver;
+    transition: 0.4s;
+}
+
+#sign-up{
+    color: #fff;
+    background: rgb(107, 107, 232);
+}
+
+#sign-up:hover{
+    background: rgb(81, 81, 132);
+
+}
+
+#sign-in:hover,#sign-up:hover{
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.sign-in-sign-up-btn{
+margin-right: 5em;
+}
+
+
+/* top-menu css close */
+
+/* company disc css open */
+.comp-info{
+    padding:2em;
+    /* opacity: 0.89; */
+    background-image: url('https://images.unsplash.com/photo-1543353071-10c8ba85a904?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80') ;
+
+}
+.comp-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-img img{
+    object-fit: cover;
+        display: block;
+        max-width: 100%; 
+        height: 400px;
+        border-radius: 50%;
+}
+
+.lit-disc h3{
+    font-size: 3.7em;
+    width: 100%;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    color: rgb(32, 32, 81);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.apple,.playstore{
+    object-fit: cover;
+    display: block;
+        max-width: 10%;
+
+}
+
+.download-app{
+    display: flex;
+    margin-top: 1em;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    
+    width: 30%;
+   
+}
+
+.bit-in{
+    margin-left: 0.8em;
+}
+
+.lit-disc-1{
+    font-size: 1em;
+    
+}
+
+.lit-disc-2{
+    margin-left: 2em;
+    color: rgb(32, 32, 81);
+
+}
+
+.grid-system{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    text-align: center;
+    margin-top: 2em;
+    color: rgb(32, 32, 81);
+
+}
+
+.grid-items img{
+    object-fit: cover;
+        display: block;
+        max-width: 20%;
+       margin: 0 auto;
+
+}
+
+/* company disc css close */
+
+
+
+
+
+/* food items cards css open */
+
+.food-items-cards{
+    padding:7em 2em;
+
+    background:rgb(32, 32, 81); ;
+}
+
+.food-item-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3em;
+    
+}
+
+.food-card-img{
+    display: block;
+    max-width: 100%;
+    transition: 0.4s;
+    opacity: 0.7;
+   
+}
+.food-card-img:hover{
+    opacity: 2;
+    transform: scale(1.1);
+}
+/* food items cards css close */
+
+
+
+/* restaurants css open */
+
+.restorants{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.restorants h1{
+    font-size: 2.3em;
+    font-weight: bold;
+    color: rgb(32, 32, 81);
+}
+hr{
+    opacity: 0.4;
+}
+.food-card-section{
+    padding: 2em;
+}
+
+.menu-btn{
+    padding: 0.9em 1.7em;
+    margin: 1em;
+    border: none;
+    border-radius: 2em;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.menu-btn:hover{
+background: rgb(246, 87, 29);
+color: #fff;
+}
+
+
+
+
+
+.menu-links{
+    text-decoration: none;
+    font-size: 1.3em;
+
+    color: rgb(32, 32, 81);
+}
+
+.menu-links:hover{
+    color: #fff;
+    transition: 0.4s;
+}
+
+
+.all-food-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5em;
+
+
+}
+
+.all-food-items img{
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+}
+
+.rate{
+background-color: #48c479;
+    font-size: 1.1em;
+    color: #fff;
+    border-radius: 1.5em;
+    
+    padding: 0.5em 0.1em;
+    text-align: center;
+
+}
+.ratings{
+    display: grid;
+    align-items: center;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    font-size: 0.8em;
+}
+
+
+.foods-items h2{
+    margin: 0.5em 0em;
+    
+}
+.foods-items p{
+    margin: 0.7em 0em;
+    color: rgb(140, 130, 130);
+    font-size: 1.2em;
+    font-weight: 300;
+   
+   
+}
+
+.foods-items a{
+    text-decoration: none;
+color: rgb(32, 32, 81);
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: 0.4s;
+
+}
+
+.foods-items a:hover{
+    color:silver;
+}
+
+.foods-items div{
+    text-align: center;
+}
+
+.offer-item{
+    text-align: center;
+border-top:0em solid rgb(140, 130, 130)  ;
+border-bottom: 0em solid rgb(140, 130, 130);
+padding: 0.3em 0em;
+border-width: 0.0007em;
+}
+
+.foods-items{
+    transition: 0.4s;
+    padding: 1.2em;
+    border-radius: 0.6em;
+    cursor: pointer;
+}
+
+.foods-items:hover{
+    border: 0px solid black;
+    transform: scale(1.1);
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+/* restaurants css close */
+
+
+.search-icon{
+    display: block;
+    max-width: 10%;
+
+}
+
+#sign-out {
+    color: #fff;
+    background: rgb(107, 107, 232);
+    
+}
+
+#sign-out:hover {
+    background: rgb(81, 81, 132);
+
+}
+
+
+
+.user-profile-pic img{
+    display: block;
+    max-width: 10%;
+    object-fit: cover;
+    margin-right: 0.5em;
+}
+
+.sign-in-sign-up-btn.user-pic{
+    display: flex;
+
+   
+}
+
+
+#user-info{
+   
+    display: flex;
+    justify-content: flex-end;
+    
+    align-items: center;
+
+}
+/* Media queries css */
+
+@media (max-width:1900px) {
+    .container{
+        width: 100%;
+        max-width:100%;
+    }
+    
+}
+
+
+@media (max-width:900px) {
+    .logo{
+        margin-left: 0;
+    }
+
+    .sign-in-sign-up-btn{
+    margin-right: 0;
+    }
+
+        .all-food-items{
+            grid-template-columns: 1fr 1fr;
+            gap: 1.4em;
+        }
+
+        .lit-disc-2{
+            display: none;
+        }
+        
+        .food-item-container{
+            grid-template-columns: 1fr 1fr;
+        }
+
+                .food-items-cards {
+                    padding: 2em 2em;
+        
+                   
+                }
+
+                
+ 
+
+}
+
+
+
+
+
+
+

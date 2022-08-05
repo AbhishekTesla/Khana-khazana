@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+h3{
+    color: red;
+}
+.wrapper{
+    width: 140%;
+   
+   
+   
+}
+
+.input{
+    padding: 1em;
+    width: 100%;
+    font-size: 1em;
+    margin-top: 0.5em;
+    border-radius: 1.5em;
+    border-width: 0.00002em;
+}
+
+.comp-logo{
+    margin-left: 8em;
+    margin-top: 1.8em;
+   
+}
+
+
+img{
+    display: block;
+    object-fit: cover;
+    max-width: 100%;
+    height: 180px;
+}
+
+
+
+.list-1{
+    margin: 1em;
+}
+
+label{
+    font-weight: 600;
+    font-size: 1em;
+    margin-left: 1em;
+color: rgb(32, 32, 81);
+
+font-family: 'Raleway', sans-serif;
+   
+}
+
+.create-accoutn-btn{
+   
+    display: flex;
+    justify-content: center;
+}
+
+
+button{
+    padding: 1em;
+    width: 100%;
+    margin: 0.3em;
+    max-width: 500px;
+    border-radius: 1.5em;
+    border: none;
+    font-size: 1.1em;
+    color: #ffff;
+background: rgb(107, 107, 232);
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 1em;
+    
+    
+}
+
+button:hover{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+a{
+    text-decoration: none;
+color: rgb(32, 32, 81);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
